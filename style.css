@@ -59,7 +59,8 @@
 #btnCerrar{
   position: fixed;
   width: 315px;
-  top: -17px;
+  height: 30px;
+  top: -20px;
   text-align: right;  
   background-color: white;
   border-top-left-radius: 11px;
@@ -68,10 +69,22 @@
   border-left: 1px solid rgba(105, 107, 105, 0.281);
   border-right: 1px solid rgba(105, 107, 105, 0.281);
   border-bottom: 1px solid #faf5f5;
+  
 }
 
 #btnCerrar i{
-  margin-right: 5px;  
+  margin-top: 6px;
+  margin-right: 6px;
+  padding-right: 2px;
+  cursor: pointer;
+  transition: 300ms all;
+  border-radius: 100px;
+  width: 15px;
+  height: 18px;  
+}
+
+#btnCerrar i:hover{
+  background-color: #dfd3d3;  
 }
 
 

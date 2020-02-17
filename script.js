@@ -1,13 +1,7 @@
-/*function ocultar() {
-  document.getElementById('ifr1').style.display = 'none';
-}*/
-
-
-
 $(document).ready(function () {
   setTimeout(function () {
     $("#msgPrincipal").fadeOut(1500);
-  }, 4000);
+  }, 6000);
 });
 
 
