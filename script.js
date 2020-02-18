@@ -10,6 +10,16 @@ $(function () {
   var flag = 0;
   var flag1 = 0;
 
+
+  $('#imgchec').on('click', function () {
+    document.getElementById('modal').style.display = 'none';
+    document.getElementById("ifr1").style.display = "block";
+    document.getElementById("btnCerrar").style.display = "block";
+    flag = 0;
+    console.log(flag);
+  });
+
+
   $('#btnCerrar').on('click', function () {
     document.getElementById('ifr1').style.display = 'none';
     flag = 0;
