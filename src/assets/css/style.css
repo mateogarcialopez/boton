@@ -31,29 +31,32 @@
 }
 
 #msgPrincipal{  
+  box-sizing: border-box;
   top: -17px;
   position: absolute;
-  width: 297px;    
+  width: 100%;    
   padding: 10px;  
-  border-bottom: 1px solid rgba(105, 107, 105, 0.281);
-  padding-top: 20px;
-  background-color: #fcfcfc;
-  border-top-left-radius: 11px;
-  border-top-right-radius: 11px;
+  border: 1px solid rgba(105, 107, 105, 0.281);
+  border-top: none;
+  padding-top: 10px;
+  background-color: #ffffff;
+  border-top-left-radius: 7px;
+  border-top-right-radius: 7px;
 }
 
 #imgMsgPrincipal{
   width: 40px;
-  height: 60px;
   float: left;
   margin-right: 8px;
-  margin-top: 4px;
+  margin-top: 10px;
+  margin-left: 10px;
 }
 
 #txtMsgPrincipal{
   line-height : 25px;  
   font-family: Calibri, "Helvetica Neue", Arial, sans-serif;  
-  font-weight: 500;  
+  font-weight: 500;
+  padding-left: 60px;
 }
 
 #btnCerrar{
@@ -105,7 +108,8 @@
 }
 
 
-.contenido{
+.cuerpoPortalesChec{
+  cursor: pointer;
   margin: auto;
   border-radius: 10px;
   
