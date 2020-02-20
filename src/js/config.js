@@ -8,7 +8,7 @@
 
 
   //MODIFICAR EL SIGUIENTE SELECTOR CON EL ID DEL MODAL INICIAL PARA CERRARLO AL HACER CLICK EN ÉL
-  export var dialog_id = "modal"
+  export var dialog_id = $("#modal")
 
 
   //------------------------------------------------------------------- FIN CONFIGURACIÓN ------------------------------------------------------------------------------

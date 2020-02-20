@@ -24,7 +24,7 @@ $(function () {
     if (flag == 0) {
       $('.one iframe').delay().fadeIn();
 
-      document.getElementById(dialog_id).style.display = "none"; 
+      dialog_id.hide(); 
       
       document.getElementById("ifr1").style.display = "block";
       document.getElementById("btnCerrar").style.display = "block";
