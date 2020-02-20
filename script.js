@@ -1,30 +1,31 @@
-//Desaparecer en mensaje principal del chat despues de x segundos
+//Ocultar el mensaje principal del chat despues de x segundos
 $(document).ready(function () {
   setTimeout(function () {
     $("#msgPrincipal").fadeOut(1500);
-  }, 5000);
+  }, 15000);
 });
 
 
 $(function () {
 
+
   var flag = 0;
   var flag1 = 0;
 
-  //Funcion para cerrar el chat desde la X
+  //Funcion para cerrar el chat desde la (X)
   $('#btnCerrar').on('click', function () {
     document.getElementById('ifr1').style.display = 'none';
     flag = 0;
   });
 
-//controlar el abrir y cerrar el chat desde el boton
+//Controlar el abrir y cerrar el chat desde el boton
   $('.share, .contenido').on('click', function () {
 
     if (flag == 0) {
       $('.one iframe').delay().fadeIn();
 
       //---------------cerrar la ventana modal-----------------------------
-      document.getElementById("modal").style.display = "none";
+      document.getElementById("modal").style.display = "none"; //Reemplazar el ID del modal
       //---------------cerrar la ventana modal-----------------------------
       
       document.getElementById("ifr1").style.display = "block";
