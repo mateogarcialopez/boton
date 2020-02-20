@@ -1,7 +1,7 @@
-#Chatbot Lucy para Web
-##Documentación
+# Chatbot Lucy para Web
+## Documentación
 
-###Instalación
+### Instalación
 Para instalar el módulo, se deben añadir el directorio **src** en el directorio raiz de la página web.
 Adicionalmente se deben añadir el siguiente código en la página en la que se quiere habilitar el botón del chat.
 ```
@@ -32,10 +32,10 @@ Adicionalmente se deben añadir el siguiente código en la página en la que se 
 ```
 Para mejorar el rendimiento se recomienda que el fragmento de código `Dependencies import` se ubique al final de la etiqueta `<body>`
 
-###Configuración 
+### Configuración 
 Para configurar el módulo se debe acceder al directorio *src/js/config.js*.
 
-####Opens Chat
+#### Opens Chat
 La variable `opens_chat` agrupa todos los posibles elementos de la página que harán que el modal del chat se despliegue. Para añadir o modificar los elementos que abren el modal del chat, se debe editar el selector `jQuery` que inicializa la variable indicada anteriormente.
 _El formato de selección es de tipo Selector jQuery_
 **NO ELIMINAR EL SELECTOR .share**
@@ -44,7 +44,7 @@ _El formato de selección es de tipo Selector jQuery_
 export var opens_chat =   $('.share, .cuerpoPortalesChec, #boton1, .clase_boton2')
 ```
 
-####Modal
+#### Modal
 La variable `dialog_id` comprende el selector del modal inicial que debe cerrarse para abrir el diálogo del chat. Modificarlo por el selector adecuado que apunte al modal inicial de la página.
 _El formato de selección es de tipo Selector jQuery_
 ```
